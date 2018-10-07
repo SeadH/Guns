@@ -1,0 +1,136 @@
+*{
+  margin:  0px;
+  padding: 0px;
+}
+body{
+font-family: 'Skranji', cursive;
+background: Moccasin;
+}
+
+header{
+  background: white;
+}
+
+#wrapp{
+width: 90%;
+margin: 0 auto;
+}
+
+header img{
+  float: left;
+}
+header h1{
+  float: right;
+  font-size: 4em;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.clr{
+  clear: both;
+}
+
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 40px;
+  font-size: 1.8em;
+}
+
+nav ul li:first-child{
+  margin-left: 150px;
+}
+
+nav ul li:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+article{
+  padding: 30px;
+}
+article img{
+  float:left;
+  margin-right: 50px;
+}
+
+article h2{
+  text-align: center;
+  font-size: 2em;
+  color: SaddleBrown;
+}
+
+article p{
+  padding: 20px;
+  font-family: Tahoma;
+  font-size: 1.2em;
+  color: DarkKhaki;
+}
+
+.price{
+  font-size: 4em;
+  text-align: center;
+}
+
+.price span{
+  font-size: 1.8em;
+  color: green;
+}
+
+.hr{
+  width: 70%;
+  border-bottom: 1px solid red;
+  box-shadow: 5px 5px 5px gray;
+  margin: 50px auto;
+}
+
+footer{
+  height: 120px;
+  background: DarkSlateGray;
+  padding-top: 30px;
+}
+
+footer h1{
+  text-align: center;
+  color: gold;
+  font-size: 2.2em;
+}
+@media (max-width: 400px){
+  body{
+    width: 100%;
+  }
+  #wrapp{
+    width: 100%;
+  }
+  header img{
+    display: none;
+  }
+  header{
+    background: white url("../img/crosshair.png") no-repeat;
+    background-size: 50px 50px;
+  }
+  nav ul{
+    display: none;
+  }
+  header h1{
+    font-size: 1.1em;
+    margin-right: 80px;
+  }
+  article{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  article img{
+    width: 100%;
+  }
+  select{
+    width: 100%;
+    background: beige;
+    padding-left: 280px;
+  }
+}
